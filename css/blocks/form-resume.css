@@ -1,0 +1,19 @@
+.form-resume__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+    border: none;
+    padding: 0;
+    margin-bottom: 48px;
+}
+
+.form-resume__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-resume__submit {
+    width: 320px;
+}

@@ -1,0 +1,36 @@
+.contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+
+.contacts-list__link {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 22px;
+    color: inherit;
+}
+
+.contacts-list__item:last-child .contacts-list__link {
+    padding-right: 0;
+}
+
+.contacts-list__item:nth-child(2n) {
+    border-left: 1px solid #1D252D;
+}
+
+.contacts-list__item:nth-child(odd):not(:last-child):not(:first-child) {
+    border-left: 1px solid #1D252D;
+}
+
+.contacts-list__link:hover {
+    text-decoration: underline;
+}
+
+.contacts-list__link:focus-visible {
+    text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+.cookies {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 16px;
+    padding: 26px 26px 16px;
+    background-color: #1D252D;
+    display: none;
+}
+
+.cookies--active {
+    display: flex;
+}
+
+.cookies__text {
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    margin: 0;
+}
+
+.cookies__link {
+    text-decoration: underline;
+}
+
+.cookies__link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cookies__close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.cookies__icon {
+    color: #fff;
+}

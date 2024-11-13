@@ -1,0 +1,16 @@
+.title {
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title--h1 {
+    font-size: 60px;
+    line-height: 72px;
+
+}
+
+.title--h2 {
+    font-size: 48px;
+    line-height: 58px;
+}

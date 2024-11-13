@@ -1,0 +1,23 @@
+/* Global */
+
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+
+@import "blocks/header.css";
+@import "blocks/footer.css";
+@import "blocks/button.css";
+@import "blocks/title.css";
+@import "blocks/vacancies.css";
+@import "blocks/contacts-list.css";
+@import "blocks/vacancy.css";
+@import "blocks/send-resume.css";
+@import "blocks/form-resume.css";
+@import "blocks/custom-input.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/cookies.css";
+
+

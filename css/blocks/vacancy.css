@@ -1,0 +1,27 @@
+.vacancy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: inherit;
+    padding: 28px 28px 27px;
+}
+
+.vacancy:hover, .vacancy:focus-visible {
+    background-color: #D6D2C433;
+}
+
+
+
+.vacancy__name {
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.vacancy__offer {
+    font-size: 16px;
+    line-height: 20px;
+}

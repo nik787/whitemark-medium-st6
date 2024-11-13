@@ -1,0 +1,22 @@
+.send-resume {
+    margin-bottom: 120px;
+}
+
+.send-resume__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-resume__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 56px;
+}
+
+.send-resume__subtitle {
+    max-width: 280px;
+    text-align: right;
+    margin: 0;
+}
