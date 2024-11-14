@@ -30,6 +30,7 @@
     background-color: rgba(214, 210, 196, 0.5);
     color: rgba(29, 37, 45, 0.5);
     border-color: rgba(214, 210, 196, 0.5);
+    pointer-events: none;
 }
 
 

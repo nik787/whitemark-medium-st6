@@ -101,3 +101,13 @@
 .custom-input__field--error ~ .custom-input__error {
     display: block;
 }
+
+.custom-input__field--error:focus-visible {
+    border: 1px solid #E80E0A;
+    background-color: #FFFAFA;
+
+}
+
+.custom-input__field--error:focus-visible ~ .custom-input__icon {
+    color: #F26F6C;
+}

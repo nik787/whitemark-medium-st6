@@ -2,7 +2,6 @@
     position: fixed;
     bottom: 252px;
     right: 20px;
-    display: flex;
     flex-direction: column;
     width: 360px;
     gap: 16px;
